@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41BDCAD017DAFAEC002D0757 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BDCACF17DAFAEC002D0757 /* UIKit.framework */; };
+		41BDCAD217DAFAEC002D0757 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BDCAD117DAFAEC002D0757 /* Foundation.framework */; };
+		41BDCAD417DAFAEC002D0757 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BDCAD317DAFAEC002D0757 /* CoreGraphics.framework */; };
+		41BDCADA17DAFAEC002D0757 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41BDCAD817DAFAEC002D0757 /* InfoPlist.strings */; };
+		41BDCADC17DAFAEC002D0757 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BDCADB17DAFAEC002D0757 /* main.m */; };
+		41BDCAE017DAFAEC002D0757 /* PennAppsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BDCADF17DAFAEC002D0757 /* PennAppsAppDelegate.m */; };
+		41BDCAE217DAFAEC002D0757 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BDCAE117DAFAEC002D0757 /* Default.png */; };
+		41BDCAE417DAFAEC002D0757 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BDCAE317DAFAEC002D0757 /* Default@2x.png */; };
+		41BDCAE617DAFAEC002D0757 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41BDCAE517DAFAEC002D0757 /* Default-568h@2x.png */; };
+		41BDCAE917DAFAEC002D0757 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41BDCAE717DAFAEC002D0757 /* MainStoryboard.storyboard */; };
+		41BDCAEC17DAFAEC002D0757 /* PennAppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BDCAEB17DAFAEC002D0757 /* PennAppsViewController.m */; };
+		41BDCAF317DAFB8F002D0757 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41BDCAF217DAFB8F002D0757 /* FacebookSDK.framework */; };
+		41BDCB0217DB05B9002D0757 /* SLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BDCB0117DB05B9002D0757 /* SLViewController.m */; };
+		41BDCB0717DB05C5002D0757 /* SLViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BDCB0317DB05C5002D0757 /* SLViewController_iPad.xib */; };
+		41BDCB0817DB05C5002D0757 /* SLViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BDCB0517DB05C5002D0757 /* SLViewController_iPhone.xib */; };
+		41BDCB4717DBBE88002D0757 /* UINavigationItem+JTRevealSidebarV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BDCB4417DBBE88002D0757 /* UINavigationItem+JTRevealSidebarV2.m */; };
+		41BDCB4817DBBE88002D0757 /* UIViewController+JTRevealSidebarV2.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BDCB4617DBBE88002D0757 /* UIViewController+JTRevealSidebarV2.m */; };
+		41BDCB4B17DBBF31002D0757 /* SidebarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BDCB4A17DBBF31002D0757 /* SidebarViewController.m */; };
+		41BDCB4F17DBCA81002D0757 /* FilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41BDCB4D17DBCA81002D0757 /* FilterViewController.m */; };
+		41BDCB5017DBCA81002D0757 /* FilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41BDCB4E17DBCA81002D0757 /* FilterViewController.xib */; };
+		41C545DA17DC3939001790D7 /* playa.html in Resources */ = {isa = PBXBuildFile; fileRef = 41C545D917DC3939001790D7 /* playa.html */; };
+		41C545DC17DC3FB3001790D7 /* Sunnyheadshot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 41C545DB17DC3FB3001790D7 /* Sunnyheadshot.jpg */; };
+		41DD5B9E17DBED6700730DBD /* NSString+NSString_URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 41DD5B9D17DBED6700730DBD /* NSString+NSString_URLEncode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41BDCACC17DAFAEC002D0757 /* PennApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BDCACF17DAFAEC002D0757 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41BDCAD117DAFAEC002D0757 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41BDCAD317DAFAEC002D0757 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41BDCAD717DAFAEC002D0757 /* PennApps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PennApps-Info.plist"; sourceTree = "<group>"; };
+		41BDCAD917DAFAEC002D0757 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41BDCADB17DAFAEC002D0757 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41BDCADD17DAFAEC002D0757 /* PennApps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PennApps-Prefix.pch"; sourceTree = "<group>"; };
+		41BDCADE17DAFAEC002D0757 /* PennAppsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PennAppsAppDelegate.h; sourceTree = "<group>"; };
+		41BDCADF17DAFAEC002D0757 /* PennAppsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PennAppsAppDelegate.m; sourceTree = "<group>"; };
+		41BDCAE117DAFAEC002D0757 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		41BDCAE317DAFAEC002D0757 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		41BDCAE517DAFAEC002D0757 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		41BDCAE817DAFAEC002D0757 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		41BDCAEA17DAFAEC002D0757 /* PennAppsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PennAppsViewController.h; sourceTree = "<group>"; };
+		41BDCAEB17DAFAEC002D0757 /* PennAppsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PennAppsViewController.m; sourceTree = "<group>"; };
+		41BDCAF217DAFB8F002D0757 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		41BDCB0017DB05B9002D0757 /* SLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLViewController.h; sourceTree = "<group>"; };
+		41BDCB0117DB05B9002D0757 /* SLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLViewController.m; sourceTree = "<group>"; };
+		41BDCB0417DB05C5002D0757 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SLViewController_iPad.xib; sourceTree = "<group>"; };
+		41BDCB0617DB05C5002D0757 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SLViewController_iPhone.xib; sourceTree = "<group>"; };
+		41BDCB4217DBBE88002D0757 /* JTRevealSidebarV2Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTRevealSidebarV2Delegate.h; sourceTree = "<group>"; };
+		41BDCB4317DBBE88002D0757 /* UINavigationItem+JTRevealSidebarV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+JTRevealSidebarV2.h"; sourceTree = "<group>"; };
+		41BDCB4417DBBE88002D0757 /* UINavigationItem+JTRevealSidebarV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+JTRevealSidebarV2.m"; sourceTree = "<group>"; };
+		41BDCB4517DBBE88002D0757 /* UIViewController+JTRevealSidebarV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JTRevealSidebarV2.h"; sourceTree = "<group>"; };
+		41BDCB4617DBBE88002D0757 /* UIViewController+JTRevealSidebarV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JTRevealSidebarV2.m"; sourceTree = "<group>"; };
+		41BDCB4917DBBF31002D0757 /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		41BDCB4A17DBBF31002D0757 /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
+		41BDCB4C17DBCA81002D0757 /* FilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterViewController.h; sourceTree = "<group>"; };
+		41BDCB4D17DBCA81002D0757 /* FilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterViewController.m; sourceTree = "<group>"; };
+		41BDCB4E17DBCA81002D0757 /* FilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterViewController.xib; sourceTree = "<group>"; };
+		41C545D917DC3939001790D7 /* playa.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = playa.html; sourceTree = "<group>"; };
+		41C545DB17DC3FB3001790D7 /* Sunnyheadshot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sunnyheadshot.jpg; sourceTree = "<group>"; };
+		41DD5B9C17DBED6700730DBD /* NSString+NSString_URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSString_URLEncode.h"; sourceTree = "<group>"; };
+		41DD5B9D17DBED6700730DBD /* NSString+NSString_URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSString_URLEncode.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41BDCAC917DAFAEC002D0757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BDCAF317DAFB8F002D0757 /* FacebookSDK.framework in Frameworks */,
+				41BDCAD017DAFAEC002D0757 /* UIKit.framework in Frameworks */,
+				41BDCAD217DAFAEC002D0757 /* Foundation.framework in Frameworks */,
+				41BDCAD417DAFAEC002D0757 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41BDCAC317DAFAEC002D0757 = {
+			isa = PBXGroup;
+			children = (
+				41BDCB4117DBBE88002D0757 /* JTRevealSidebarV2 */,
+				41BDCAD517DAFAEC002D0757 /* PennApps */,
+				41BDCACE17DAFAEC002D0757 /* Frameworks */,
+				41BDCACD17DAFAEC002D0757 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41BDCACD17DAFAEC002D0757 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41BDCACC17DAFAEC002D0757 /* PennApps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41BDCACE17DAFAEC002D0757 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41BDCAF217DAFB8F002D0757 /* FacebookSDK.framework */,
+				41BDCACF17DAFAEC002D0757 /* UIKit.framework */,
+				41BDCAD117DAFAEC002D0757 /* Foundation.framework */,
+				41BDCAD317DAFAEC002D0757 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41BDCAD517DAFAEC002D0757 /* PennApps */ = {
+			isa = PBXGroup;
+			children = (
+				41BDCADE17DAFAEC002D0757 /* PennAppsAppDelegate.h */,
+				41BDCADF17DAFAEC002D0757 /* PennAppsAppDelegate.m */,
+				41BDCB0317DB05C5002D0757 /* SLViewController_iPad.xib */,
+				41BDCB0517DB05C5002D0757 /* SLViewController_iPhone.xib */,
+				41BDCB0017DB05B9002D0757 /* SLViewController.h */,
+				41BDCB0117DB05B9002D0757 /* SLViewController.m */,
+				41C545D917DC3939001790D7 /* playa.html */,
+				41C545DB17DC3FB3001790D7 /* Sunnyheadshot.jpg */,
+				41DD5B9C17DBED6700730DBD /* NSString+NSString_URLEncode.h */,
+				41DD5B9D17DBED6700730DBD /* NSString+NSString_URLEncode.m */,
+				41BDCB4C17DBCA81002D0757 /* FilterViewController.h */,
+				41BDCB4D17DBCA81002D0757 /* FilterViewController.m */,
+				41BDCB4E17DBCA81002D0757 /* FilterViewController.xib */,
+				41BDCAE717DAFAEC002D0757 /* MainStoryboard.storyboard */,
+				41BDCAEA17DAFAEC002D0757 /* PennAppsViewController.h */,
+				41BDCAEB17DAFAEC002D0757 /* PennAppsViewController.m */,
+				41BDCAD617DAFAEC002D0757 /* Supporting Files */,
+			);
+			path = PennApps;
+			sourceTree = "<group>";
+		};
+		41BDCAD617DAFAEC002D0757 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41BDCAD717DAFAEC002D0757 /* PennApps-Info.plist */,
+				41BDCAD817DAFAEC002D0757 /* InfoPlist.strings */,
+				41BDCADB17DAFAEC002D0757 /* main.m */,
+				41BDCADD17DAFAEC002D0757 /* PennApps-Prefix.pch */,
+				41BDCAE117DAFAEC002D0757 /* Default.png */,
+				41BDCAE317DAFAEC002D0757 /* Default@2x.png */,
+				41BDCAE517DAFAEC002D0757 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41BDCB4117DBBE88002D0757 /* JTRevealSidebarV2 */ = {
+			isa = PBXGroup;
+			children = (
+				41BDCB4917DBBF31002D0757 /* SidebarViewController.h */,
+				41BDCB4A17DBBF31002D0757 /* SidebarViewController.m */,
+				41BDCB4217DBBE88002D0757 /* JTRevealSidebarV2Delegate.h */,
+				41BDCB4317DBBE88002D0757 /* UINavigationItem+JTRevealSidebarV2.h */,
+				41BDCB4417DBBE88002D0757 /* UINavigationItem+JTRevealSidebarV2.m */,
+				41BDCB4517DBBE88002D0757 /* UIViewController+JTRevealSidebarV2.h */,
+				41BDCB4617DBBE88002D0757 /* UIViewController+JTRevealSidebarV2.m */,
+			);
+			name = JTRevealSidebarV2;
+			path = PennApps/JTRevealSidebarV2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41BDCACB17DAFAEC002D0757 /* PennApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41BDCAEF17DAFAEC002D0757 /* Build configuration list for PBXNativeTarget "PennApps" */;
+			buildPhases = (
+				41BDCAC817DAFAEC002D0757 /* Sources */,
+				41BDCAC917DAFAEC002D0757 /* Frameworks */,
+				41BDCACA17DAFAEC002D0757 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PennApps;
+			productName = PennApps;
+			productReference = 41BDCACC17DAFAEC002D0757 /* PennApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41BDCAC417DAFAEC002D0757 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PennApps;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Sunny Shah";
+			};
+			buildConfigurationList = 41BDCAC717DAFAEC002D0757 /* Build configuration list for PBXProject "PennApps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41BDCAC317DAFAEC002D0757;
+			productRefGroup = 41BDCACD17DAFAEC002D0757 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41BDCACB17DAFAEC002D0757 /* PennApps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41BDCACA17DAFAEC002D0757 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BDCADA17DAFAEC002D0757 /* InfoPlist.strings in Resources */,
+				41BDCAE217DAFAEC002D0757 /* Default.png in Resources */,
+				41BDCAE417DAFAEC002D0757 /* Default@2x.png in Resources */,
+				41BDCAE617DAFAEC002D0757 /* Default-568h@2x.png in Resources */,
+				41BDCAE917DAFAEC002D0757 /* MainStoryboard.storyboard in Resources */,
+				41BDCB0717DB05C5002D0757 /* SLViewController_iPad.xib in Resources */,
+				41BDCB0817DB05C5002D0757 /* SLViewController_iPhone.xib in Resources */,
+				41BDCB5017DBCA81002D0757 /* FilterViewController.xib in Resources */,
+				41C545DA17DC3939001790D7 /* playa.html in Resources */,
+				41C545DC17DC3FB3001790D7 /* Sunnyheadshot.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41BDCAC817DAFAEC002D0757 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41BDCADC17DAFAEC002D0757 /* main.m in Sources */,
+				41BDCAE017DAFAEC002D0757 /* PennAppsAppDelegate.m in Sources */,
+				41BDCAEC17DAFAEC002D0757 /* PennAppsViewController.m in Sources */,
+				41BDCB0217DB05B9002D0757 /* SLViewController.m in Sources */,
+				41BDCB4717DBBE88002D0757 /* UINavigationItem+JTRevealSidebarV2.m in Sources */,
+				41BDCB4817DBBE88002D0757 /* UIViewController+JTRevealSidebarV2.m in Sources */,
+				41BDCB4B17DBBF31002D0757 /* SidebarViewController.m in Sources */,
+				41BDCB4F17DBCA81002D0757 /* FilterViewController.m in Sources */,
+				41DD5B9E17DBED6700730DBD /* NSString+NSString_URLEncode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41BDCAD817DAFAEC002D0757 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41BDCAD917DAFAEC002D0757 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41BDCAE717DAFAEC002D0757 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41BDCAE817DAFAEC002D0757 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		41BDCB0317DB05C5002D0757 /* SLViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41BDCB0417DB05C5002D0757 /* en */,
+			);
+			name = SLViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		41BDCB0517DB05C5002D0757 /* SLViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41BDCB0617DB05C5002D0757 /* en */,
+			);
+			name = SLViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41BDCAED17DAFAEC002D0757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41BDCAEE17DAFAEC002D0757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41BDCAF017DAFAEC002D0757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PennApps/PennApps-Prefix.pch";
+				INFOPLIST_FILE = "PennApps/PennApps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41BDCAF117DAFAEC002D0757 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PennApps/PennApps-Prefix.pch";
+				INFOPLIST_FILE = "PennApps/PennApps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41BDCAC717DAFAEC002D0757 /* Build configuration list for PBXProject "PennApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BDCAED17DAFAEC002D0757 /* Debug */,
+				41BDCAEE17DAFAEC002D0757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41BDCAEF17DAFAEC002D0757 /* Build configuration list for PBXNativeTarget "PennApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41BDCAF017DAFAEC002D0757 /* Debug */,
+				41BDCAF117DAFAEC002D0757 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41BDCAC417DAFAEC002D0757 /* Project object */;
+}
